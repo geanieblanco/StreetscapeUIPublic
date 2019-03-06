@@ -14,7 +14,7 @@ export default class SearchBar extends React.Component {
                 renderDescription = {row => row.description}
                 onPress = {(data, details = null) => {this.props.handleSearch(details.geometry.location);}}
                 query = {{
-                    key: 'AIzaSyC5pNowZZ89ajtHmjV0pGfydmrWv48ZyFY',
+                    key: '#',
                     language: 'en',
                     }}
                 styles = {{
